@@ -4,6 +4,9 @@ public class Milk implements SmoothieLiquiqIngredients {
 
     private int volume;
     
+    Milk(int volume) {
+        this.setVolume(volume);
+    }
     @Override
     public int getVolume() {
         // TODO Auto-generated method stub

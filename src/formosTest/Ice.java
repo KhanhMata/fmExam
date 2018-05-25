@@ -4,6 +4,10 @@ public class Ice implements SmoothieLiquiqIngredients {
 
     private int volume;
     
+    Ice(int volume) {
+        this.setVolume(volume);
+    }
+    
     @Override
     public int getVolume() {
         // TODO Auto-generated method stub
