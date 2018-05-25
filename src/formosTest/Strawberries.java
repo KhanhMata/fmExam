@@ -4,6 +4,10 @@ public class Strawberries implements Fruit {
 
     private int weight;
     
+    public Strawberries(int weight) {
+        this.setWeight(weight);
+    }
+    
     @Override
     public int getWeight() {
         // TODO Auto-generated method stub

@@ -4,6 +4,10 @@ public class Mango implements Fruit {
 
     private int weight;
     
+    public Mango(int weight) {
+        this.setWeight(weight);
+    }
+    
     @Override
     public int getWeight() {
         // TODO Auto-generated method stub

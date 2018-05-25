@@ -4,6 +4,10 @@ public class Sugar implements SmoothieSolidIngredients {
 
     private int weight;
     
+    public Sugar(int weight) {
+        this.setWeight(weight);
+    }
+    
     @Override
     public int getWeight() {
         // TODO Auto-generated method stub
